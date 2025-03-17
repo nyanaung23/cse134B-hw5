@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nyan Aung's Personal Portfolio</title>
+  <link href="home.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="about-me.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experiments.html">Experiments</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="intro"> 
+      <span class="page-title">
+        <h1>Hey, I'm Nyan Aung <br> Welcome to my Portfolio</h1>
+      </span>
+  
+      <picture class="my-picture">
+        <figure>
+          <source media="(max-width:650px)" srcset="my-image-smaller.png">
+          <img src="my-image.png" alt="My Image">
+          <figcaption>Me</figcaption>
+        </figure>
+      </picture>
+    </section>
+  
+    <section class="bio">
+      <h2><em>A Little About Myself</em></h2>
+      <hr>
+      <p class="bioP">I am currently a fourth year <strong>computer engineering</strong> major at <b>UCSD</b> and I am very excited to start learning more about frontend engineering.</p>
+      <hr>
+    </section>
+
+    <section class="contacts">
+      <address>
+        <h2>Contact Me</h2>
+        <ul>
+          <li>
+            <img src="email.png" alt="Email Logo">
+            <p><a href="naung@ucsd.edu">naung@ucsd.edu</a></p>
+          </li>
+        </ul>
+      </address>
+    </section>
+
+
+    <section class="Projects">
+      <div class="project-tite">
+        <h2 class="ptitle">Projects</h2>
+        <img class="github" src="github-logo.svg" alt="Project Logo">
+      </div>
+      <div class="grid-container">
+          <div class="grid-item">
+              <h2><a href="">Rock Paper Scissors Minus 1</a></h2>
+              <p>Rock Paper Scissor with a twist inspired by Squid Game TV show.</p>
+              <img src="coming soon.avif" title="Coming soon image">
+          </div>
+          <div class="grid-item">
+              <h2><a href="">Gym Log</a></h2>
+              <p>Social media to log and track your gym progress and communicate with your gym buddies.</p>
+              <img src="coming soon.avif" title="Coming soon image">
+          </div>
+          <div class="grid-item">
+              <h2><a href="">La La Lounge</a></h2>
+              <p>Website for deep focus. Listen to various sounds to keep you motivated and locked in.</p>
+              <img src="coming soon.avif" title="Coming soon image">
+          </div>
+      </div>
+  </section>
+  
+
+    <p>Check out more html tags in <a href="experiments.html">Experiments</a> Page</p>
+
+    <section>
+      <form action="https://httpbin.org/post" method="POST">
+        <fieldset>
+          <legend>Let Me Know About You:</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Nyan Aung" required minlength="3" maxlength="50">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="nyanaung@gamil.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" placeholder="Hello!" required minlength="5" maxlength="500"></textarea>
+
+          <input type="hidden" name="possible_bot" value="true">
+
+          <button type="submit">Submit</button>
+          <output id="error"></output>
+          <output id="info"></output>
+        </fieldset>
+      </form>
+    </section>
+
+
+
+
+  </main>
+
+  <footer>
+      <p>Created by Nyan Aung</p>
+  </footer>
+
+  <style></style>
+
+  <script></script>
+</body>
+</html>
