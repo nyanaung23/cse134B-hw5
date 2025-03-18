@@ -32,6 +32,7 @@ class ProjectCard extends HTMLElement {
                     overflow: hidden;
                     white-space: nowrap;
                     text-overflow: ellipsis;
+                    background-color: beige;
                 }
                 img {
                     width: 100%;

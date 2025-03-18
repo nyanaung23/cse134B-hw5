@@ -260,4 +260,28 @@ input:valid, textarea:valid {
 }
 
 
+@media (max-width: 480px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .intro, .bio, .contacts {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .intro h1 {
+    font-size: medium;
+  }
+
+  .contacts img {
+    width: 50px;
+  }
+
+  form input[type="text"], input[type="email"], textarea {
+    width: 85%;
+  }
+}
+
 
