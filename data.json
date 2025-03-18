@@ -1,0 +1,23 @@
+[
+  {
+      "title": "Rock Paper Scissors Minus 1",
+      "image": "minus1.png",
+      "alt": "An image showing symbols of rock, paper, and scissors",
+      "description": "Experience Rock Paper Scissors with a twist inspired by the thrilling Squid Game TV show, where strategic play takes on a whole new level.",
+      "link": "project1.html"
+  },
+  {
+      "title": "Gym Log",
+      "image": "dumbbell.webp",
+      "alt": "A notebook and a pen on a gym floor",
+      "description": "A social media platform to log and track your gym progress. Connect and compete with your gym buddies.",
+      "link": "project2.html"
+  },
+  {
+      "title": "La La Lounge",
+      "image": "lalalounge.jpeg",
+      "alt": "A serene and cozy lounge environment",
+      "description": "Discover the La La Lounge: A website dedicated to deep focus, featuring various ambient sounds to keep you motivated and immersed in your work.",
+      "link": "project3.html"
+  }
+]
